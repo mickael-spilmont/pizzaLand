@@ -27,7 +27,7 @@ const data = [{
 let html = '';
 
 function createList(pizza) {
-  let str;
+  let str = '';
   pizza.ingredients.forEach(function(ingredient) {
     str += `<li>${ingredient.nom}</li>`;
   });
@@ -44,4 +44,5 @@ data.forEach(function(element) {
             </a>`;
 });
 
+console.log(html);
 document.querySelector(".pizzasContainer").innerHTML = html;
