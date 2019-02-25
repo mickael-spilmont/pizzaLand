@@ -1,21 +1,21 @@
 {
   "name": "pizzaland",
   "version": "1.0.0",
-  "description": "Projet d'initiation à javascript",
+  "description": "TP de JS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mickael-spilmont/pizzaLand.git"
+    "url": "git+https://github.com/kumquats/cours-javascript.git"
   },
-  "author": "Mickael-spilmont",
+  "author": "Thomas Fritsch <tf@kumquats.fr>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mickael-spilmont/pizzaLand/issues"
+    "url": "https://github.com/kumquats/cours-javascript/issues"
   },
-  "homepage": "https://github.com/mickael-spilmont/pizzaLand#readme",
+  "homepage": "https://github.com/kumquats/cours-javascript#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
